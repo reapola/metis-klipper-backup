@@ -29,6 +29,12 @@ trusted_clients =
 
 [history]
 
+[wled lights]
+type = http
+address = metis-lighting.etive.com
+initial_preset = 1
+chain_count = 60
+
 [update_manager]
 refresh_interval = 168
 
@@ -54,4 +60,11 @@ path = ~/fluidd
 type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
+
+[update_manager client z_calibration]
+type = git_repo
+path = ~/klipper_z_calibration
+origin = https://github.com/protoloft/klipper_z_calibration.git
+install_script = install.sh
+managed_services = klipper
 
