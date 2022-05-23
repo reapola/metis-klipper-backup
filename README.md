@@ -14,9 +14,9 @@
 
 ### Electronics
 - Octopus Pro
-- MKS Canable Pro
+- MKS Canable Pro with [Reapola's awesome DIN mount](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/reapola/MKS_CANable_Pro_mount)
 - Raspberry Pi 4B 4Gb
-- ESP32
+- ESP32 powering WLED
 
 
 ### Physical Mods
@@ -27,7 +27,6 @@
 - Whoppingpochard's Maxwell Kinematic mounts
 - Purge Bucket & brush
 - Unklicky with left extended dock
-- WLED powered by ESP32
 - BTT TFT 5.0
 - Chamber thermistor on chain guide
 - Sexbolt
