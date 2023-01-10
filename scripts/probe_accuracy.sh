@@ -1,15 +1,11 @@
 #!/bin/sh
 now=$(date +"%F-%H_%M_%S")
-# TEST_RESONANCES AXIS=X
-# TEST_RESONANCES AXIS=Y
 
-echo Processing x-axis
-/home/reapola/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /home/reapola/klipper_config/resonances/shaper_calibrate_x-${now}.png
+echo Doing a full probe accuracy test
+python3 $HOME/probe_accuracy_tests/probe_accuracy_test_suite.py
 
-echo processing y-axis
-/home/reapola/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /home/reapola/klipper_config/resonances/shaper_calibrate_y-${now}.png
+echo Moving Files
+mv /home/reapola/probe_accuracy_tests/output/* /home/reapola/klipper_config/probe_accuracy/
 
-# TEST_RESONANCES AXIS=1,1 OUTPUT=raw_data
-# TEST_RESONANCES AXIS=1,-1 OUTPUT=raw_data
-# ~/klipper/scripts/graph_accelerometer.py -c /tmp/raw_data_axis*.csv -o /tmp/resonances.png
-mv /tmp/resonances_*.csv /home/reapola/klipper_config/resonances
+echo Backing up to github
+/home/reapola/klipper_config/scripts/backup_klipper.sh
