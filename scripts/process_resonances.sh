@@ -13,3 +13,5 @@ echo processing y-axis
 # TEST_RESONANCES AXIS=1,-1 OUTPUT=raw_data
 # ~/klipper/scripts/graph_accelerometer.py -c /tmp/raw_data_axis*.csv -o /tmp/resonances.png
 mv /tmp/resonances_*.csv /home/reapola/klipper_config/resonances
+
+/home/reapola/klipper_config/scripts/backup_klipper.sh
