@@ -1,7 +1,3 @@
-[include ercf_hardware.cfg]
-[include ercf_parameters.cfg]
-[include ercf_software.cfg]
-[include client_macros.cfg]
 [include shell_command.cfg]
 
 ## Uncomment for input shaping via USB
