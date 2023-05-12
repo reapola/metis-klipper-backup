@@ -4,7 +4,7 @@ now=$(date +"%F-%H_%M_%S")
 # TEST_RESONANCES AXIS=Y
 
 echo Processing x-axis
-/home/reapola/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /home/reapola/printer_data/config/resonances/shaper_calibrate_x-${now}.png
+/home/reapola/klipper/scripts/calibrate_shaper.py /tmp/resonances_x_*.csv -o /home/reapola/printer_data/config//resonances/shaper_calibrate_x-${now}.png
 
 echo processing y-axis
 /home/reapola/klipper/scripts/calibrate_shaper.py /tmp/resonances_y_*.csv -o /home/reapola/printer_data/config/resonances/shaper_calibrate_y-${now}.png
