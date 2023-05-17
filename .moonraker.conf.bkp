@@ -87,3 +87,25 @@ path = ~/CanBoot
 origin = https://github.com/Arksine/CanBoot.git
 is_system_service = False
 
+[update_manager voron-klipper-extensions]
+type = git_repo
+path = ~/voron-klipper-extensions
+origin = https://github.com/voidtrance/voron-klipper-extensions.git
+install_script = install-extensions.sh
+managed_services = klipper
+
+[update_manager octoeverywhere]
+type = git_repo
+channel = beta
+path = /home/reapola/octoeverywhere
+origin = https://github.com/QuinnDamerell/OctoPrint-OctoEverywhere.git
+env = /home/reapola/octoeverywhere-env/bin/python
+requirements = requirements.txt
+install_script = install.sh
+managed_services = 
+	octoeverywhere
+
+[announcements]
+subscriptions = 
+	octoeverywhere
+
