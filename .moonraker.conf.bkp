@@ -109,3 +109,9 @@ managed_services =
 subscriptions = 
 	octoeverywhere
 
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
