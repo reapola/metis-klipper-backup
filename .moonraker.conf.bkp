@@ -7,6 +7,10 @@ klippy_uds_address = /home/reapola/printer_data/comms/klippy.sock
 [file_manager]
 enable_object_processing = True
 
+[announcements]
+subscriptions = 
+	octoeverywhere
+
 [authorization]
 cors_domains = 
 	*.lan
@@ -50,11 +54,6 @@ env = ~/.KlipperScreen-env/bin/python
 requirements = scripts/KlipperScreen-requirements.txt
 install_script = scripts/KlipperScreen-install.sh
 
-[update_manager client fluidd]
-type = web
-repo = fluidd-core/fluidd
-path = ~/fluidd
-
 [update_manager client mobileraker-companion]
 type = git_repo
 path = ~/mobileraker_companion
@@ -69,13 +68,6 @@ type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
 install_script = tools/pkglist.sh
-
-[update_manager ercf-happy_hare]
-type = git_repo
-path = ~/ERCF-Software-V3
-origin = https://github.com/moggieuk/ERCF-Software-V3.git
-install_script = install.sh
-managed_services = klipper
 
 [update_manager Klipper-Adaptive-Meshing-Purging]
 type = git_repo
@@ -100,10 +92,6 @@ env = /home/reapola/octoeverywhere-env/bin/python
 requirements = requirements.txt
 install_script = install.sh
 managed_services = 
-	octoeverywhere
-
-[announcements]
-subscriptions = 
 	octoeverywhere
 
 [update_manager mainsail]
@@ -132,5 +120,29 @@ path = ~/klipper_tmc_autotune
 origin = https://github.com/andrewmcgr/klipper_tmc_autotune.git
 managed_services = klipper
 primary_branch = main
+install_script = install.sh
+
+[update_manager fluidd]
+type = web
+repo = fluidd-core/fluidd
+path = ~/fluidd
+
+[update_manager mobileraker]
+type = git_repo
+path = /home/reapola/mobileraker_companion
+origin = https://github.com/Clon1998/mobileraker_companion.git
+primary_branch = main
+managed_services = mobileraker
+env = /home/reapola/mobileraker-env/bin/python
+requirements = scripts/mobileraker-requirements.txt
+install_script = scripts/install-mobileraker-companion.sh
+
+[update_manager Klippain-ShakeTune]
+type = git_repo
+path = ~/klippain_shaketune
+channel = beta
+origin = https://github.com/Frix-x/klippain-shaketune.git
+primary_branch = main
+managed_services = klipper
 install_script = install.sh
 
