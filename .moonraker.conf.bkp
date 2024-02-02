@@ -49,7 +49,7 @@ refresh_interval = 168
 [update_manager KlipperScreen]
 type = git_repo
 path = ~/KlipperScreen
-origin = https://github.com/jordanruthe/KlipperScreen.git
+origin = https://github.com/moggieuk/KlipperScreen-Happy-Hare-Edition.git
 env = ~/.KlipperScreen-env/bin/python
 requirements = scripts/KlipperScreen-requirements.txt
 install_script = scripts/KlipperScreen-install.sh
@@ -138,4 +138,21 @@ requirements = requirements.txt
 system_dependencies = system-dependencies.json
 primary_branch = main
 managed_services = klipper
+
+[update_manager happy-hare]
+type = git_repo
+path = ~/Happy-Hare
+origin = https://github.com/moggieuk/Happy-Hare.git
+primary_branch = main
+install_script = install.sh
+managed_services = klipper
+
+[mmu_server]
+enable_file_preprocessor = True
+
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
 
