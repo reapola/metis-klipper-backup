@@ -30,3 +30,17 @@
 - BTT TFT 5.0
 - Chamber thermistor on chain guide
 - Corsair LED lighting
+
+### Toolhead Shitty
+canbusid: 8b5d9c08fd2b
+
+### 4 lande EMU  (EBB42 v1.2)
+
+MMU01
+canbusid: 865715468acd
+MMU02
+canbusid: 3392e015f6ab
+MMU02
+canbusid: c9d180b714ec
+MMU03
+canbusid: c1733724b404
