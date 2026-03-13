@@ -40,7 +40,7 @@ canbusid: 8b5d9c08fd2b
 canbusid: 865715468acd
 - MMU02
 canbusid: 3392e015f6ab
-- MMU02
-canbusid: c9d180b714ec
 - MMU03
+canbusid: c9d180b714ec
+- MMU04
 canbusid: c1733724b404
