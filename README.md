@@ -34,7 +34,7 @@
 ### Toolhead Shitty
 canbusid: 8b5d9c08fd2b
 
-### 4 lande EMU  (EBB42 v1.2)
+### 4 lane EMU  (EBB42 v1.2)
 
 - MMU01
 canbusid: 865715468acd
