@@ -1,8 +1,4 @@
-#[include mmu/base/*.cfg]
-#[include mmu/addons/mmu_eject_buttons.cfg]
-#[include mmu/optional/client_macros.cfg]
-#[include emu_macros.cfg] # download this file from the EMU repo and upload to your printer
-# [include mmu/addons/blobifier.cfg] # Enable this if you have a blobifier set up
+
 [include config/*.cfg]
 [include macros/*.cfg]
 [include KAMP_Settings.cfg]
