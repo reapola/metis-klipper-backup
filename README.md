@@ -32,7 +32,7 @@
 - Corsair LED lighting
 
 ### Toolhead Shitty
-canbusid: 8b5d9c08fd2b
+canbusid: eca5398c7faf
 
 ### 4 lane EMU  (EBB42 v1.2)
 
