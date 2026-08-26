@@ -94,9 +94,7 @@ enable_force_move: True
 [include macros/stealthmax_macros.cfg]
 
 ## MMU Macros
-# Happy Hare Client macros (should be after last include or other PAUSE/CANCEL macros)
-[include mmu/optional/client_macros.cfg]
-
+#[include mmu/optional/client_macros.cfg]
 #[include mmu/addons/blobifier.cfg] # Enable this if you have a blobifier set up
 
 
