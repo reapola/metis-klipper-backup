@@ -60,6 +60,9 @@
   },
   "printers": {
     "default": {
+      "appearance": {
+        "toolhead_style": 2
+      },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
         "load_filament": {
@@ -84,6 +87,9 @@
         "chamber": "fan_generic nevermore_fan",
         "exhaust": "",
         "hotend": "heater_fan hotend_fan",
+        "names": {
+          "controller_fan casefans": "Electronics Bay"
+        },
         "part": "fan"
       },
       "filament_sensors": {
@@ -92,13 +98,13 @@
           {
             "enabled": true,
             "klipper_name": "filament_switch_sensor default:extruder",
-            "role": "none",
+            "role": "entry",
             "type": "switch"
           },
           {
             "enabled": true,
             "klipper_name": "filament_switch_sensor default:toolhead",
-            "role": "none",
+            "role": "toolhead",
             "type": "switch"
           },
           {
@@ -224,12 +230,19 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-08T22:25:22Z"
+          "timestamp": "2026-10-09T07:07:04Z"
         },
-        "optional": []
+        "optional": [
+          "fan_generic _unit0_fan0",
+          "fan_generic _unit0_fan1",
+          "fan_generic _unit0_fan2",
+          "fan_generic _unit0_fan3",
+          "controller_fan casefans"
+        ]
       },
       "heaters": {
         "bed": "heater_bed",
+        "chamber": "none",
         "hotend": "extruder"
       },
       "leds": {
@@ -596,9 +609,11 @@
           ]
         }
       },
+      "printer_image": "shipped:voron-v2",
       "printer_name": "Metis",
       "temp_sensors": {
         "bed": "heater_bed",
+        "chamber": "temperature_sensor chamber",
         "hotend": "extruder"
       },
       "type": "Voron 2.4",
