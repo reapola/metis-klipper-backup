@@ -186,6 +186,18 @@
         "timestamp": 1791732239,
         "total": 595,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 67,
+          "7": 22,
+          "8": 392,
+          "9": 11
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791740674,
+        "total": 556,
+        "window": 1
       }
     ]
   },
@@ -361,7 +373,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-11T17:29:51Z"
+          "timestamp": "2026-10-11T22:00:30Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -759,7 +771,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.591546893119812
+        "heat_rate": 1.558198094367981
       }
     }
   },
