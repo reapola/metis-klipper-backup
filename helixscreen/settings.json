@@ -345,8 +345,8 @@
             "fan_generic nevermore_fan"
           ],
           "filament_sensors": [
-            "filament_switch_sensor default:extruder",
-            "filament_switch_sensor default:toolhead",
+            "filament_switch_sensor extruder",
+            "filament_switch_sensor toolhead",
             "filament_switch_sensor mmu_entry_0",
             "filament_switch_sensor mmu_entry_1",
             "filament_switch_sensor mmu_entry_2",
@@ -355,8 +355,8 @@
             "filament_switch_sensor mmu_exit_1",
             "filament_switch_sensor mmu_exit_2",
             "filament_switch_sensor mmu_exit_3",
-            "filament_switch_sensor unit0:filament_compression",
-            "filament_switch_sensor unit0:filament_tension"
+            "filament_switch_sensor filament_compression",
+            "filament_switch_sensor filament_tension"
           ],
           "heaters": [
             "heater_bed",
@@ -375,17 +375,17 @@
             "temperature_sensor unit0_Env1",
             "temperature_sensor unit0_Env2",
             "temperature_sensor unit0_Env3",
-            "temperature_sensor _unit0_mcu0",
-            "temperature_sensor _unit0_mcu1",
-            "temperature_sensor _unit0_mcu2",
-            "temperature_sensor _unit0_mcu3",
+            "temperature_sensor unit0_mcu0",
+            "temperature_sensor unit0_mcu1",
+            "temperature_sensor unit0_mcu2",
+            "temperature_sensor unit0_mcu3",
             "temperature_sensor beacon_coil",
             "temperature_sensor chamber",
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-15T15:47:10Z"
+          "timestamp": "2026-10-15T16:18:50Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
