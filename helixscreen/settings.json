@@ -25,7 +25,8 @@
       }
     },
     "screensaver_type": "aqua",
-    "sleep_sec": 1200
+    "sleep_sec": 1200,
+    "theme": "kanagawa"
   },
   "gcode_viewer": {
     "tube_sides": 4
@@ -106,18 +107,6 @@
         "temp_bucket": 1,
         "timestamp": 1791707813,
         "total": 761,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 23,
-          "CLEANING": 357,
-          "HOMING": 138,
-          "PURGING": 12
-        },
-        "temp_bucket": 2,
-        "timestamp": 1791732239,
-        "total": 595,
         "window": 1
       },
       {
@@ -251,6 +240,21 @@
         "temp_bucket": 2,
         "timestamp": 1792786966,
         "total": 524,
+        "window": 1
+      },
+      {
+        "phases": {
+          "BED_MESH": 129,
+          "CLEANING": 5,
+          "HOMING": 37,
+          "PURGING": 1,
+          "QGL": 17,
+          "SOAKING": 32
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1792803546,
+        "total": 484,
         "window": 1
       }
     ]
@@ -427,7 +431,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-24T00:36:47Z"
+          "timestamp": "2026-10-24T06:15:14Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -497,20 +501,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 21.212499999994307
+            "used_h": 25.41555555556396
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 21.212499999994307
+            "used_h": 25.41555555556396
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 21.212499999994307
+            "used_h": 25.41555555556396
           }
         },
-        "total_h": 21.212499999994307
+        "total_h": 25.41555555556396
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -600,20 +604,28 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 11,
+                  "col": -1,
                   "colspan": 2,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "filament",
-                  "row": 0,
+                  "row": -1,
                   "rowspan": 2
+                },
+                {
+                  "col": -1,
+                  "colspan": 8,
+                  "enabled": false,
+                  "id": "tips",
+                  "row": -1,
+                  "rowspan": 4
                 },
                 {
                   "col": 4,
                   "colspan": 8,
                   "enabled": true,
-                  "id": "tips",
+                  "id": "temp_graph:1",
                   "row": 0,
-                  "rowspan": 4
+                  "rowspan": 2
                 }
               ]
             }
@@ -639,10 +651,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6894830465316772
+        "heat_rate": 0.42184314131736755
       },
       "heater_bed": {
-        "heat_rate": 4.349781513214111
+        "heat_rate": 6.526982307434082
       }
     }
   },
