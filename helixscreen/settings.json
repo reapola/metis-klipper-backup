@@ -69,62 +69,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 106,
-          "CLEANING": 7,
-          "HOMING": 48,
-          "PURGING": 130,
-          "QGL": 7
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1792714814,
-        "total": 489,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 121,
-          "CLEANING": 3,
-          "HOMING": 80,
-          "PURGING": 130,
-          "QGL": 14
-        },
-        "skipped": [],
-        "temp_bucket": 1,
-        "timestamp": 1792739129,
-        "total": 761,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 120,
-          "CLEANING": 3,
-          "HOMING": 39,
-          "PURGING": 130,
-          "QGL": 14
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1792754739,
-        "total": 486,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 124,
-          "CLEANING": 7,
-          "HOMING": 38,
-          "PURGING": 129,
-          "QGL": 14,
-          "SOAKING": 32
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792771081,
-        "total": 569,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 125,
           "CLEANING": 6,
           "HOMING": 38,
@@ -276,6 +220,68 @@
         "temp_bucket": 2,
         "timestamp": 1792965905,
         "total": 490,
+        "window": 1
+      },
+      {
+        "heating": 417,
+        "phases": {
+          "BED_MESH": 122,
+          "CLEANING": 5,
+          "HOMING": 20,
+          "PURGING": 128,
+          "QGL": 11,
+          "SOAKING": 31
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793003696,
+        "total": 754,
+        "window": 1
+      },
+      {
+        "heating": 152,
+        "phases": {
+          "BED_MESH": 128,
+          "CLEANING": 6,
+          "HOMING": 38,
+          "PURGING": 130,
+          "QGL": 14,
+          "SOAKING": 32
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1793019615,
+        "total": 523,
+        "window": 1
+      },
+      {
+        "heating": 376,
+        "phases": {
+          "BED_MESH": 124,
+          "CLEANING": 3,
+          "HOMING": 40,
+          "PURGING": 132,
+          "QGL": 14,
+          "SOAKING": 32
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793039957,
+        "total": 743,
+        "window": 1
+      },
+      {
+        "heating": 158,
+        "phases": {
+          "BED_MESH": 114,
+          "CLEANING": 4,
+          "HOMING": 38,
+          "PURGING": 132,
+          "QGL": 14,
+          "SOAKING": 32
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1793055949,
+        "total": 518,
         "window": 1
       }
     ]
@@ -452,7 +458,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-26T08:17:19Z"
+          "timestamp": "2026-10-27T07:59:27Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -522,20 +528,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 56.324722222023176
+            "used_h": 73.13916666654274
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 56.324722222023176
+            "used_h": 73.13916666654274
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 56.324722222023176
+            "used_h": 73.13916666654274
           }
         },
-        "total_h": 56.324722222023176
+        "total_h": 73.13916666654274
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -555,11 +561,11 @@
                   "enabled": true,
                   "id": "printer_image",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 5
                 },
                 {
                   "col": 0,
-                  "colspan": 6,
+                  "colspan": 8,
                   "enabled": true,
                   "id": "print_status",
                   "row": 5,
@@ -593,7 +599,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 2,
+                  "col": 4,
                   "colspan": 4,
                   "enabled": true,
                   "id": "ams",
@@ -633,12 +639,12 @@
                   "rowspan": 4
                 },
                 {
-                  "col": 0,
+                  "col": 2,
                   "colspan": 2,
                   "enabled": true,
                   "id": "macros",
-                  "row": 3,
-                  "rowspan": 2
+                  "row": 2,
+                  "rowspan": 3
                 },
                 {
                   "col": 2,
@@ -649,8 +655,8 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 6,
-                  "colspan": 6,
+                  "col": 8,
+                  "colspan": 4,
                   "enabled": true,
                   "id": "temp_graph:1",
                   "row": 2,
@@ -693,10 +699,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.43660813570022583
+        "heat_rate": 0.3617836833000183
       },
       "heater_bed": {
-        "heat_rate": 5.141606330871582
+        "heat_rate": 7.126592636108398
       }
     }
   },
