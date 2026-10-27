@@ -69,20 +69,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 125,
-          "CLEANING": 6,
-          "HOMING": 38,
-          "PURGING": 129,
-          "QGL": 14,
-          "SOAKING": 32
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792786966,
-        "total": 524,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 129,
           "CLEANING": 5,
           "HOMING": 37,
@@ -283,6 +269,21 @@
         "timestamp": 1793055949,
         "total": 518,
         "window": 1
+      },
+      {
+        "heating": 95,
+        "phases": {
+          "BED_MESH": 103,
+          "CLEANING": 3,
+          "HOMING": 59,
+          "PURGING": 131,
+          "QGL": 11
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1793088908,
+        "total": 465,
+        "window": 1
       }
     ]
   },
@@ -458,7 +459,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-27T08:00:36Z"
+          "timestamp": "2026-10-27T12:51:20Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -528,20 +529,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 73.13916666654274
+            "used_h": 77.34249999994393
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 73.13916666654274
+            "used_h": 77.34249999994393
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 73.13916666654274
+            "used_h": 77.34249999994393
           }
         },
-        "total_h": 73.13916666654274
+        "total_h": 77.34249999994393
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -699,7 +700,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3617836833000183
+        "heat_rate": 0.3564506769180298
       },
       "heater_bed": {
         "heat_rate": 7.126592636108398
