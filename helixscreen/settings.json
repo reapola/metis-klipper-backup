@@ -69,62 +69,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 129,
-          "CLEANING": 5,
-          "HOMING": 37,
-          "PURGING": 1,
-          "QGL": 17,
-          "SOAKING": 32
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1792803546,
-        "total": 484,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 134,
-          "CLEANING": 4,
-          "HOMING": 65,
-          "PURGING": 128,
-          "QGL": 18
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792824125,
-        "total": 741,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 123,
-          "CLEANING": 5,
-          "HOMING": 38,
-          "PURGING": 131,
-          "QGL": 14,
-          "SOAKING": 32
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792851374,
-        "total": 784,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 123,
-          "CLEANING": 5,
-          "HOMING": 37,
-          "PURGING": 128,
-          "QGL": 14,
-          "SOAKING": 32
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792861879,
-        "total": 724,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 144,
           "HOMING": 37,
           "PURGING": 128,
@@ -284,6 +228,68 @@
         "timestamp": 1793088908,
         "total": 465,
         "window": 1
+      },
+      {
+        "heating": 387,
+        "phases": {
+          "BED_MESH": 125,
+          "CLEANING": 2,
+          "HOMING": 35,
+          "PURGING": 130,
+          "QGL": 17,
+          "SOAKING": 32
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793111313,
+        "total": 763,
+        "window": 1
+      },
+      {
+        "heating": 414,
+        "phases": {
+          "BED_MESH": 114,
+          "CLEANING": 4,
+          "HOMING": 40,
+          "PURGING": 131,
+          "QGL": 13,
+          "SOAKING": 32
+        },
+        "skipped": [],
+        "temp_bucket": 1,
+        "timestamp": 1793143250,
+        "total": 769,
+        "window": 1
+      },
+      {
+        "heating": 412,
+        "phases": {
+          "BED_MESH": 115,
+          "CLEANING": 3,
+          "HOMING": 39,
+          "PURGING": 131,
+          "QGL": 13,
+          "SOAKING": 31
+        },
+        "skipped": [],
+        "temp_bucket": 1,
+        "timestamp": 1793170615,
+        "total": 770,
+        "window": 1
+      },
+      {
+        "heating": 436,
+        "phases": {
+          "BED_MESH": 116,
+          "CLEANING": 3,
+          "HOMING": 39,
+          "PURGING": 132,
+          "QGL": 13,
+          "SOAKING": 32
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793206676,
+        "total": 782,
+        "window": 1
       }
     ]
   },
@@ -409,57 +415,28 @@
         ],
         "last_snapshot": {
           "fans": [
-            "fan_generic _unit0_fan0",
-            "fan_generic _unit0_fan1",
-            "fan_generic _unit0_fan2",
-            "fan_generic _unit0_fan3",
             "fan",
             "heater_fan hotend_fan",
             "controller_fan casefans",
             "fan_generic nevermore_fan"
           ],
-          "filament_sensors": [
-            "filament_switch_sensor extruder",
-            "filament_switch_sensor toolhead",
-            "filament_switch_sensor mmu_entry_0",
-            "filament_switch_sensor mmu_entry_1",
-            "filament_switch_sensor mmu_entry_2",
-            "filament_switch_sensor mmu_entry_3",
-            "filament_switch_sensor mmu_exit_0",
-            "filament_switch_sensor mmu_exit_1",
-            "filament_switch_sensor mmu_exit_2",
-            "filament_switch_sensor mmu_exit_3",
-            "filament_switch_sensor filament_compression",
-            "filament_switch_sensor filament_tension"
-          ],
+          "filament_sensors": [],
           "heaters": [
             "heater_bed",
             "extruder"
           ],
           "leds": [
-            "neopixel _unit0_gate0_leds",
-            "neopixel _unit0_gate1_leds",
-            "neopixel _unit0_gate2_leds",
-            "neopixel _unit0_gate3_leds",
             "neopixel chamber_leds",
             "neopixel toolhead_leds"
           ],
           "sensors": [
-            "temperature_sensor unit0_Env0",
-            "temperature_sensor unit0_Env1",
-            "temperature_sensor unit0_Env2",
-            "temperature_sensor unit0_Env3",
-            "temperature_sensor unit0_mcu0",
-            "temperature_sensor unit0_mcu1",
-            "temperature_sensor unit0_mcu2",
-            "temperature_sensor unit0_mcu3",
             "temperature_sensor beacon_coil",
             "temperature_sensor chamber",
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-10-27T14:15:33Z"
+          "timestamp": "2026-11-01T21:06:26Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -529,20 +506,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 77.34249999994393
+            "used_h": 94.15694444465981
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 77.34249999994393
+            "used_h": 94.15694444465981
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 77.34249999994393
+            "used_h": 94.15694444465981
           }
         },
-        "total_h": 77.34249999994393
+        "total_h": 94.15694444465981
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -700,10 +677,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3564506769180298
+        "heat_rate": 0.3491893410682678
       },
       "heater_bed": {
-        "heat_rate": 7.126592636108398
+        "heat_rate": 5.977848529815674
       }
     }
   },
