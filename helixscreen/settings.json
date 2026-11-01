@@ -436,7 +436,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-01T21:06:26Z"
+          "timestamp": "2026-11-01T21:12:57Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
