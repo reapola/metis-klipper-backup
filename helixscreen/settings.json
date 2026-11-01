@@ -435,9 +435,9 @@
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead",
-            "temperature_sensor Chamber_Heater"
+            "temperature_sensor Chambe"
           ],
-          "timestamp": "2026-11-01T22:04:11Z"
+          "timestamp": "2026-11-01T22:13:40Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
