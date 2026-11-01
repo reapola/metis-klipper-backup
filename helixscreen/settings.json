@@ -437,7 +437,7 @@
             "temperature_sensor Toolhead",
             "temperature_sensor Chamber_Heater"
           ],
-          "timestamp": "2026-11-01T22:03:42Z"
+          "timestamp": "2026-11-01T22:04:11Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
