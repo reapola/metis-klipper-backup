@@ -423,6 +423,7 @@
           "filament_sensors": [],
           "heaters": [
             "heater_bed",
+            "heater_generic CHB_HT",
             "extruder"
           ],
           "leds": [
@@ -434,10 +435,9 @@
             "temperature_sensor chamber",
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
-            "temperature_sensor Toolhead",
-            "temperature_sensor Chambe"
+            "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-01T22:18:52Z"
+          "timestamp": "2026-11-01T22:33:18Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
