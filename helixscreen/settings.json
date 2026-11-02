@@ -63,7 +63,7 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -436,7 +436,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-02T00:11:48Z"
+          "timestamp": "2026-11-02T00:15:03Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
