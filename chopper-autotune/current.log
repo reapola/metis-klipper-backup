@@ -1,0 +1,4 @@
+Current tuning on motor(s) A+B: worst-case pattern (single-motor load, belts 100/150/200 mm/s, ±25 mm), endstop referee, margin 2.0x over the measured skip threshold
+  motor A: configured run_current 1.25 A, strokes at 7500 mm/s2
+  motor B: configured run_current 1.25 A, strokes at 7500 mm/s2
+the x endstop is sensorless (tmc2209_stepper_x:virtual_endstop) — the endstop referee needs a physical switch; CHOPPER_CURRENT/CHOPPER_ENVELOPE are not available on this machine (the accelerometer tools all work)

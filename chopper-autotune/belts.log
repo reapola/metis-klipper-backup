@@ -1,0 +1,12 @@
+Belt-diagonal response comparison on corexy: swept-sine 30-200 Hz per diagonal (motor A = head 1,1, motor B = head 1,-1), response spectrum computed here.
+Homing X/Y (TEST_RESONANCES moves to the probe point)
+ exciting belt A (head diagonal 1,1)...
+   belt A: resonance 179.6 Hz (peaks: 194, 178, 165)
+ exciting belt B (head diagonal 1,-1)...
+   belt B: resonance 186.7 Hz (peaks: 191, 155, 103)
+
+=== Belt-diagonal response ===
+Diagonal A 179.6 Hz  |  Diagonal B 186.7 Hz
+matched: 3.9% apart (< 5%) — the two diagonals respond alike.
+
+If you adjust a belt, change it a LITTLE and re-run: the per-belt delta tells you whether the response follows the tension at all. After any mechanical change, re-run CHOPPER_TUNE — the chopper optimum is measured against the mechanics you leave in place.
