@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 29,
+  "config_version": 32,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -10,9 +10,9 @@
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "egl/4c/100bm/800x480/32bpp",
-      "frame_ms": 5.468563,
+      "frame_ms": 3.272979,
       "passed": true,
-      "version": "1.1.0-beta.13 (1649a47)"
+      "version": "1.1.0-beta.15 (24661f3)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -298,6 +298,9 @@
       "appearance": {
         "toolhead_style": 2
       },
+      "bed_occupancy": {
+        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.275mm_PETG _4h1m_159g.gcode\",\"job_id\":\"0003EE\",\"object_height\":125.125,\"start_time\":1793205894.541969}"
+      },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
         "load_filament": {
@@ -436,7 +439,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-03T08:21:25Z"
+          "timestamp": "2026-11-03T08:22:08Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -691,7 +694,8 @@
   "ui": {},
   "update": {
     "channel": 1,
-    "dismissed_version": "1.1.0-beta.14"
+    "dismissed_version": "1.1.0-beta.14",
+    "moonraker_channel": "beta"
   },
   "wizard_completed": true
 }
