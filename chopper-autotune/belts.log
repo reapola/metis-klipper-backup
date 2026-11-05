@@ -1,12 +1,29 @@
-Belt-diagonal response comparison on corexy: swept-sine 30-200 Hz per diagonal (motor A = head 1,1, motor B = head 1,-1), response spectrum computed here.
-Homing X/Y (TEST_RESONANCES moves to the probe point)
- exciting belt A (head diagonal 1,1)...
-   belt A: resonance 179.6 Hz (peaks: 194, 178, 165)
- exciting belt B (head diagonal 1,-1)...
-   belt B: resonance 186.7 Hz (peaks: 191, 155, 103)
+Pluck test: the head parks at the REAR so the side spans are at their longest. On the display cue, pluck the LONGEST free span of each belt (a side span on small printers, the front span on big ones) mid-span, like a guitar string — pull ~5 mm sideways, release sharply. Pluck HARD; equal spans for both belts. Each belt needs two agreeing plucks.
+Capturing the quiet reference (do not touch)...
+   ambient lines excluded: 693 Hz, 910 Hz
+Axis calibration: ok — lines will carry polarization (along-belt = tension pump at 2f)
+>> Ready: belt A in 3s
+>> PLUCK belt A now! (listening 5s...)
+   belt A try 1: [669(x265 Y)]
+>> Belt A heard — once more
+>> Ready: belt A in 3s
+>> PLUCK belt A now! (listening 5s...)
+   belt A try 2: [657(x241 Y)]
+   belt A: family 663.3 Hz seen 2x (pol=Y)
+>> Ready: belt B in 3s
+>> PLUCK belt B now! (listening 5s...)
+   belt B try 1: [647(x215 Y), 219(x31 Y)]
+>> Belt B heard — once more
+>> Ready: belt B in 3s
+>> PLUCK belt B now! (listening 5s...)
+   belt B try 2: [638(x231 Y)]
+   belt B: family 642.8 Hz seen 2x (pol=Y)
+belt A: 663.3 Hz (pol=Y, seen 2x) -> fundamental 331.6 Hz (axial pump /2)
+belt B: 642.8 Hz (pol=Y, seen 2x) -> fundamental 321.4 Hz (axial pump /2)
 
-=== Belt-diagonal response ===
-Diagonal A 179.6 Hz  |  Diagonal B 186.7 Hz
-matched: 3.9% apart (< 5%) — the two diagonals respond alike.
+=== Belt tension (pluck) ===
+Belt A fundamental 331.6 Hz  |  Belt B 321.4 Hz
+Tension A vs B: +6%  (T ~ f^2: (331.6/321.4)^2 = 1.06)
+Belts matched: A 332 / B 321 Hz (tension +6%)
 
-If you adjust a belt, change it a LITTLE and re-run: the per-belt delta tells you whether the response follows the tension at all. After any mechanical change, re-run CHOPPER_TUNE — the chopper optimum is measured against the mechanics you leave in place.
+This is the transverse string mode — the one that IS tension (f ~ sqrt(T)); equal spans compare directly. After adjusting, re-run to confirm the move.
