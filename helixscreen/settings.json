@@ -435,12 +435,13 @@
           ],
           "sensors": [
             "temperature_sensor beacon_coil",
+            "temperature_sensor bed_heater",
             "temperature_sensor chamber",
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-05T22:07:16Z"
+          "timestamp": "2026-11-05T22:09:25Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
