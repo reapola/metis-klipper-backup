@@ -421,13 +421,11 @@
             "fan",
             "heater_fan hotend_fan",
             "controller_fan casefans",
-            "fan_generic extruder_partfan",
             "fan_generic nevermore_fan"
           ],
           "filament_sensors": [],
           "heaters": [
             "heater_bed",
-            "heater_generic Chamber_Heat",
             "extruder"
           ],
           "leds": [
@@ -442,7 +440,7 @@
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead"
           ],
-          "timestamp": "2026-11-05T22:15:14Z"
+          "timestamp": "2026-11-05T22:46:01Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
