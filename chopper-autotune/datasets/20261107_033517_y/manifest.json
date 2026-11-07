@@ -1,0 +1,63 @@
+{
+  "version": "0.3.0",
+  "created": "2026-11-07T03:35:17+00:00",
+  "klippy_socket": "/home/reapola/printer_data/comms/klippy.sock",
+  "klipper_version": "v2026.11.00-24-g648194e6",
+  "capture": "stream",
+  "axis": "y",
+  "stepper": "stepper_y",
+  "driver": "2209",
+  "fclk_hz": 12000000.0,
+  "accel_chip": "beacon",
+  "kinematics": "corexy",
+  "baseline_registers": {
+    "tbl": 3,
+    "toff": 2,
+    "hstrt": 5,
+    "hend": 0
+  },
+  "autotune": null,
+  "forced_spreadcycle": true,
+  "audible_khz": 30.0,
+  "audible_weight": 0.25,
+  "skip_audible": false,
+  "ranges": {
+    "tbl": [
+      1,
+      3
+    ],
+    "toff": [
+      1,
+      8
+    ],
+    "hstrt": [
+      0,
+      7
+    ],
+    "hend": [
+      0,
+      15
+    ],
+    "tpfd": null
+  },
+  "max_hysteresis": 15,
+  "search": "descent",
+  "accel": 750.0,
+  "measure_time": 1.19,
+  "trim": 0.1,
+  "iterations": 1,
+  "validate": 3,
+  "travel_distance": 117.9,
+  "speeds": [
+    90
+  ],
+  "total_moves": 636,
+  "winner": {
+    "tbl": 3,
+    "toff": 2,
+    "hstrt": 5,
+    "hend": 0
+  },
+  "kept": false,
+  "improvement": null
+}
