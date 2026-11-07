@@ -10,9 +10,9 @@
     "gcode_render_mode": 0,
     "glass_probe": {
       "board": "egl/4c/100bm/800x480/32bpp",
-      "frame_ms": 5.200921,
+      "frame_ms": 5.222929,
       "passed": true,
-      "version": "1.1.0-beta.16 (eeb9332)"
+      "version": "1.1.0-beta.17 (027e9f4)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -440,9 +440,10 @@
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead",
+            "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-07T00:43:47Z"
+          "timestamp": "2026-11-07T01:13:46Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
