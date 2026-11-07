@@ -442,9 +442,9 @@
             "temperature_sensor Toolhead",
             "temperature_sensor Chamber_Bottom",
             "temperature_sensor Chamber_Top",
-            "temperature_sensor Chamber"
+            "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-07T01:21:54Z"
+          "timestamp": "2026-11-07T01:24:05Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
