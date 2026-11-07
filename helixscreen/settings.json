@@ -440,10 +440,11 @@
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead",
+            "temperature_sensor Chamber_Bottom",
             "temperature_sensor Chamber_Top",
-            "temperature_sensor Chamber_Temperature"
+            "temperature_sensor Chamber"
           ],
-          "timestamp": "2026-11-07T01:13:46Z"
+          "timestamp": "2026-11-07T01:21:54Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
