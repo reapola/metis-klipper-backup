@@ -469,7 +469,7 @@
             "temperature_sensor unit0_mcu2",
             "temperature_sensor unit0_mcu3",
             "temperature_sensor beacon_coil",
-            "temperature_sensor bed_pad",
+            "temperature_sensor buildplate",
             "temperature_sensor Octopus",
             "temperature_sensor raspberry_pi",
             "temperature_sensor Toolhead",
@@ -477,7 +477,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-08T22:24:20Z"
+          "timestamp": "2026-11-08T22:25:34Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
