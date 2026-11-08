@@ -63,24 +63,10 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "BED_MESH": 126,
-          "CLEANING": 5,
-          "HOMING": 39,
-          "PURGING": 130,
-          "QGL": 14,
-          "SOAKING": 32
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792918174,
-        "total": 774,
-        "window": 1
-      },
       {
         "phases": {
           "BED_MESH": 126,
@@ -289,6 +275,20 @@
         "timestamp": 1794158622,
         "total": 1650,
         "window": 1
+      },
+      {
+        "heating": 507,
+        "phases": {
+          "BED_MESH": 236,
+          "CLEANING": 1,
+          "HOMING": 17,
+          "PURGING": 137,
+          "QGL": 19
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794163606,
+        "total": 1374,
+        "window": 1
       }
     ]
   },
@@ -298,8 +298,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_OrcaCube_v2_0.2mm_PETG _51m37s_16g.gcode\",\"job_id\":\"0003F0\",\"object_height\":30.05,\"start_time\":1794156972.4207394}",
-        "outlines": "{\"filename\":\"Voron_tower_with_seam_0.2mm_PETG _17m33s_11g.gcode\",\"objects\":[[[112.5,150.0],[147.5,115.0],[182.5,150.0],[182.5,184.8],[147.5,185.0],[112.5,184.8],[112.5,150.0]]]}"
+        "last_occupied": "{\"filename\":\"Voron_OrcaToleranceTest_0.2mm_PETG _1h2m_19g.gcode\",\"job_id\":\"0003F1\",\"object_height\":30.05,\"start_time\":1794162232.4184813}",
+        "outlines": "{\"filename\":\"Voron_OrcaToleranceTest_0.2mm_PETG _1h2m_19g.gcode\",\"objects\":[[[117.5,176.7],[120.5,173.7],[121.8,173.3],[170.6,173.3],[172.5,173.7],[175.5,176.7],[175.5,184.7],[172.5,187.7],[120.5,187.7],[117.5,184.7],[117.5,176.7]],[[131.5,112.3],[161.5,112.3],[161.5,142.3],[131.5,142.3],[131.5,112.3]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -477,7 +477,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-08T18:19:23Z"
+          "timestamp": "2026-11-08T20:12:28Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -547,20 +547,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 95.35916666690144
+            "used_h": 96.4247222224742
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 95.35916666690144
+            "used_h": 96.4247222224742
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 95.35916666690144
+            "used_h": 96.4247222224742
           }
         },
-        "total_h": 95.35916666690144
+        "total_h": 96.4247222224742
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -718,10 +718,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.3668047189712524
+        "heat_rate": 1.2438138723373413
       },
       "heater_bed": {
-        "heat_rate": 12.31058406829834
+        "heat_rate": 19.941024780273438
       }
     }
   },
