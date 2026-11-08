@@ -298,8 +298,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_OrcaToleranceTest_0.2mm_PETG _1h2m_19g.gcode\",\"job_id\":\"0003F1\",\"object_height\":30.05,\"start_time\":1794162232.4184813}",
-        "outlines": "{\"filename\":\"Voron_OrcaToleranceTest_0.2mm_PETG _1h2m_19g.gcode\",\"objects\":[[[117.5,176.7],[120.5,173.7],[121.8,173.3],[170.6,173.3],[172.5,173.7],[175.5,176.7],[175.5,184.7],[172.5,187.7],[120.5,187.7],[117.5,184.7],[117.5,176.7]],[[131.5,112.3],[161.5,112.3],[161.5,142.3],[131.5,142.3],[131.5,112.3]]]}"
+        "last_occupied": "{\"filename\":\"Voron_tower_with_seam_0.25mm_ASA-GF _15m56s_12g.gcode\",\"job_id\":\"0003F2\",\"object_height\":51.0,\"start_time\":1794168785.050289}",
+        "outlines": "{\"filename\":\"Voron_tower_with_seam_0.25mm_ASA-GF _15m56s_12g.gcode\",\"objects\":[[[111.5,150.0],[146.5,115.0],[181.5,150.0],[181.5,184.8],[146.5,185.0],[111.5,184.8],[111.5,150.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -477,7 +477,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-08T20:12:28Z"
+          "timestamp": "2026-11-08T20:27:04Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
