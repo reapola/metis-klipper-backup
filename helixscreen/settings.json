@@ -69,20 +69,6 @@
     "entries": [
       {
         "phases": {
-          "BED_MESH": 144,
-          "HOMING": 37,
-          "PURGING": 128,
-          "QGL": 19,
-          "SOAKING": 14
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1792869112,
-        "total": 491,
-        "window": 1
-      },
-      {
-        "phases": {
           "BED_MESH": 121,
           "CLEANING": 5,
           "HOMING": 38,
@@ -290,6 +276,20 @@
         "timestamp": 1793206676,
         "total": 782,
         "window": 1
+      },
+      {
+        "heating": 973,
+        "phases": {
+          "BED_MESH": 208,
+          "CLEANING": 1,
+          "HOMING": 18,
+          "PURGING": 1,
+          "QGL": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794149370,
+        "total": 1700,
+        "window": 1
       }
     ]
   },
@@ -299,7 +299,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.275mm_PETG _4h1m_159g.gcode\",\"job_id\":\"0003EE\",\"object_height\":125.125,\"start_time\":1793205894.541969}"
+        "last_occupied": "{\"filename\":\"Voron_tower_with_seam_0.2mm_PETG _17m33s_11g.gcode\",\"job_id\":\"0003EF\",\"object_height\":51.05,\"start_time\":1794147670.773279}",
+        "outlines": "{\"filename\":\"Voron_tower_with_seam_0.2mm_PETG _17m33s_11g.gcode\",\"objects\":[[[112.5,150.0],[147.5,115.0],[182.5,150.0],[182.5,184.8],[147.5,185.0],[112.5,184.8],[112.5,150.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -547,20 +548,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 94.15694444465981
+            "used_h": 94.47083333355377
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 94.15694444465981
+            "used_h": 94.47083333355377
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 94.15694444465981
+            "used_h": 94.47083333355377
           }
         },
-        "total_h": 94.15694444465981
+        "total_h": 94.47083333355377
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -718,10 +719,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3491893410682678
+        "heat_rate": 1.0471916198730469
       },
       "heater_bed": {
-        "heat_rate": 5.977848529815674
+        "heat_rate": 10.987608909606934
       }
     }
   },
