@@ -63,7 +63,7 @@
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
@@ -477,7 +477,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-08T12:44:08Z"
+          "timestamp": "2026-11-08T14:13:58Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
