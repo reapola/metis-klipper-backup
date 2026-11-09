@@ -68,34 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "phases": {
-          "BED_MESH": 137,
-          "CLEANING": 3,
-          "HOMING": 39,
-          "PURGING": 129,
-          "QGL": 14,
-          "SOAKING": 4
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792950320,
-        "total": 523,
-        "window": 1
-      },
-      {
-        "phases": {
-          "BED_MESH": 130,
-          "CLEANING": 6,
-          "HOMING": 39,
-          "PURGING": 130,
-          "QGL": 13
-        },
-        "skipped": [],
-        "temp_bucket": 2,
-        "timestamp": 1792965905,
-        "total": 490,
-        "window": 1
-      },
-      {
         "heating": 417,
         "phases": {
           "BED_MESH": 122,
@@ -290,6 +262,34 @@
         "timestamp": 1794179475,
         "total": 1150,
         "window": 1
+      },
+      {
+        "heating": 919,
+        "phases": {
+          "BED_MESH": 220,
+          "CLEANING": 4,
+          "HOMING": 51,
+          "PURGING": 123,
+          "QGL": 14
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794187384,
+        "total": 2472,
+        "window": 1
+      },
+      {
+        "heating": 149,
+        "phases": {
+          "BED_MESH": 211,
+          "CLEANING": 2,
+          "HOMING": 63,
+          "PURGING": 251,
+          "QGL": 14
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794189012,
+        "total": 1096,
+        "window": 1
       }
     ]
   },
@@ -299,7 +299,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_tower_with_seam_0.25mm_ASA-GF _15m56s_12g.gcode\",\"job_id\":\"0003FC\",\"object_height\":51.0,\"start_time\":1794178324.5532959}",
+        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _3h14m_170g.gcode\",\"job_id\":\"0003FE\",\"object_height\":125.1,\"start_time\":1794187915.8137078}",
         "outlines": "{\"filename\":\"Voron_tower_with_seam_0.25mm_ASA-GF _15m56s_12g.gcode\",\"objects\":[[[111.5,150.0],[146.5,115.0],[181.5,150.0],[181.5,184.8],[146.5,185.0],[111.5,184.8],[111.5,150.0]]]}"
       },
       "default_macros": {
@@ -478,7 +478,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-09T00:21:23Z"
+          "timestamp": "2026-11-09T02:00:19Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -548,20 +548,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 96.71361111136775
+            "used_h": 97.05361111137324
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 96.71361111136775
+            "used_h": 97.05361111137324
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 96.71361111136775
+            "used_h": 97.05361111137324
           }
         },
-        "total_h": 96.71361111136775
+        "total_h": 97.05361111137324
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -719,10 +719,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.1785986423492432
+        "heat_rate": 1.4636863470077515
       },
       "heater_bed": {
-        "heat_rate": 19.941024780273438
+        "heat_rate": 14.964468955993652
       }
     }
   },
