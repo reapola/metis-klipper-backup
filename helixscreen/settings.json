@@ -68,37 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 412,
-        "phases": {
-          "BED_MESH": 115,
-          "CLEANING": 3,
-          "HOMING": 39,
-          "PURGING": 131,
-          "QGL": 13,
-          "SOAKING": 31
-        },
-        "skipped": [],
-        "temp_bucket": 1,
-        "timestamp": 1793170615,
-        "total": 770,
-        "window": 1
-      },
-      {
-        "heating": 436,
-        "phases": {
-          "BED_MESH": 116,
-          "CLEANING": 3,
-          "HOMING": 39,
-          "PURGING": 132,
-          "QGL": 13,
-          "SOAKING": 32
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793206676,
-        "total": 782,
-        "window": 1
-      },
-      {
         "heating": 973,
         "phases": {
           "BED_MESH": 208,
@@ -282,6 +251,36 @@
         "timestamp": 1794268017,
         "total": 2642,
         "window": 1
+      },
+      {
+        "heating": 134,
+        "phases": {
+          "BED_MESH": 121,
+          "CLEANING": 2,
+          "HOMING": 17,
+          "PURGING": 102,
+          "QGL": 13,
+          "SOAKING": 25
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794305021,
+        "total": 578,
+        "window": 1
+      },
+      {
+        "heating": 191,
+        "phases": {
+          "BED_MESH": 110,
+          "CLEANING": 3,
+          "HOMING": 69,
+          "PURGING": 169,
+          "QGL": 13
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794310802,
+        "total": 634,
+        "window": 1
       }
     ]
   },
@@ -291,8 +290,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_ams_desicc_lid_0.25mm_ABS _1h17m_62g.gcode\",\"job_id\":\"000409\",\"object_height\":7.0,\"start_time\":1794299642.2131863}",
-        "outlines": "{\"filename\":\"Voron_ams_desicc_lid_0.25mm_ABS _1h17m_62g.gcode\",\"objects\":[[[51.7,46.0],[237.7,46.0],[237.7,232.0],[51.7,232.0]]]}"
+        "last_occupied": "{\"filename\":\"Voron_ams_desicc_bolt_0.25mm_ABS _29m5s_15g.gcode\",\"job_id\":\"00040B\",\"object_height\":41.0,\"start_time\":1794310168.7294953}",
+        "outlines": "{\"filename\":\"Voron_ams_desicc_bolt_0.25mm_ABS _29m5s_15g.gcode\",\"objects\":[[[121.5,125.0],[171.5,125.0],[171.5,175.0],[121.5,175.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -470,7 +469,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-10T09:22:29Z"
+          "timestamp": "2026-11-10T17:21:39Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -540,20 +539,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 112.10555555606068
+            "used_h": 113.92722222275675
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 112.10555555606068
+            "used_h": 113.92722222275675
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 112.10555555606068
+            "used_h": 113.92722222275675
           }
         },
-        "total_h": 112.10555555606068
+        "total_h": 113.92722222275675
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -711,7 +710,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.5954332947731018
+        "heat_rate": 0.5921756625175476
       },
       "heater_bed": {
         "heat_rate": 12.980010032653809
