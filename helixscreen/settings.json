@@ -291,8 +291,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_ams_desicc_lid_0.25mm_ABS _1h17m_62g.gcode\",\"job_id\":\"000408\",\"object_height\":7.0,\"start_time\":1794296748.1725392}",
-        "outlines": "{\"filename\":\"Voron_ams3h_desiccant_0.25mm_ABS _3h46m_138g.gcode\",\"objects\":[[[58.3,58.1],[244.3,58.1],[244.3,244.1],[58.3,244.1]]]}"
+        "last_occupied": "{\"filename\":\"Voron_ams_desicc_lid_0.25mm_ABS _1h17m_62g.gcode\",\"job_id\":\"000409\",\"object_height\":7.0,\"start_time\":1794299642.2131863}",
+        "outlines": "{\"filename\":\"Voron_ams_desicc_lid_0.25mm_ABS _1h17m_62g.gcode\",\"objects\":[[[51.7,46.0],[237.7,46.0],[237.7,232.0],[51.7,232.0]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -470,7 +470,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-10T08:27:24Z"
+          "timestamp": "2026-11-10T09:22:29Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
