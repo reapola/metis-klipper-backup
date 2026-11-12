@@ -68,21 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 651,
-        "phases": {
-          "BED_MESH": 132,
-          "CLEANING": 4,
-          "HOMING": 38,
-          "PURGING": 1,
-          "QGL": 18
-        },
-        "skipped": [],
-        "temp_bucket": 1,
-        "timestamp": 1794214557,
-        "total": 977,
-        "window": 1
-      },
-      {
         "heating": 635,
         "phases": {
           "BED_MESH": 104,
@@ -282,6 +267,20 @@
         "timestamp": 1794441937,
         "total": 849,
         "window": 1
+      },
+      {
+        "heating": 744,
+        "phases": {
+          "BED_MESH": 114,
+          "CLEANING": 5,
+          "HOMING": 36,
+          "PURGING": 126,
+          "QGL": 13
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794474257,
+        "total": 1184,
+        "window": 1
       }
     ]
   },
@@ -291,8 +290,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _3h21m_170g.gcode\",\"job_id\":\"000413\",\"object_height\":125.1,\"start_time\":1794441088.700451}",
-        "outlines": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _3h21m_170g.gcode\",\"objects\":[[[18.2,43.1],[273.2,43.1],[273.2,268.1],[18.2,268.1],[18.2,43.1]]]}"
+        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _1h23m_95g.gcode\",\"job_id\":\"000414\",\"object_height\":18.0,\"start_time\":1794473073.5026236}",
+        "outlines": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _1h23m_95g.gcode\",\"objects\":[[[19.0,37.5],[274.0,37.5],[274.0,262.5],[19.0,262.5],[19.0,37.5]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -473,7 +472,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-12T08:16:06Z"
+          "timestamp": "2026-11-12T12:37:57Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -543,20 +542,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 137.71472222264376
+            "used_h": 139.12250000037224
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 137.71472222264376
+            "used_h": 139.12250000037224
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 137.71472222264376
+            "used_h": 139.12250000037224
           }
         },
-        "total_h": 137.71472222264376
+        "total_h": 139.12250000037224
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -714,10 +713,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6188570261001587
+        "heat_rate": 0.6159238219261169
       },
       "heater_bed": {
-        "heat_rate": 9.427660942077637
+        "heat_rate": 8.627047538757324
       }
     }
   },
