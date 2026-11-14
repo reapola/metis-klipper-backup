@@ -68,21 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 134,
-        "phases": {
-          "BED_MESH": 121,
-          "CLEANING": 2,
-          "HOMING": 17,
-          "PURGING": 102,
-          "QGL": 13,
-          "SOAKING": 25
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794305021,
-        "total": 578,
-        "window": 1
-      },
-      {
         "heating": 191,
         "phases": {
           "BED_MESH": 110,
@@ -281,6 +266,20 @@
         "timestamp": 1794666150,
         "total": 679,
         "window": 1
+      },
+      {
+        "heating": 231,
+        "phases": {
+          "BED_MESH": 110,
+          "CLEANING": 4,
+          "HOMING": 35,
+          "PURGING": 128,
+          "QGL": 13
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794685918,
+        "total": 681,
+        "window": 1
       }
     ]
   },
@@ -290,8 +289,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_fan_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"job_id\":\"00041C\",\"object_height\":125.1,\"start_time\":1794665471.5365257}",
-        "outlines": "{\"filename\":\"Voron_fan_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"objects\":[[[18.2,43.1],[273.2,43.1],[273.2,268.1],[18.2,268.1],[18.2,43.1]]]}"
+        "last_occupied": "{\"filename\":\"Voron_Fasterretract_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"job_id\":\"00041D\",\"object_height\":125.1,\"start_time\":1794685236.8210502}",
+        "outlines": "{\"filename\":\"Voron_Fasterretract_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"objects\":[[[18.2,43.1],[273.2,43.1],[273.2,268.1],[18.2,268.1],[18.2,43.1]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -472,7 +471,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-14T19:39:30Z"
+          "timestamp": "2026-11-14T23:20:23Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -542,20 +541,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 156.11027777755518
+            "used_h": 159.5130555552138
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 156.11027777755518
+            "used_h": 159.5130555552138
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 156.11027777755518
+            "used_h": 159.5130555552138
           }
         },
-        "total_h": 156.11027777755518
+        "total_h": 159.5130555552138
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -713,10 +712,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6189507246017456
+        "heat_rate": 0.6020027995109558
       },
       "heater_bed": {
-        "heat_rate": 6.202643394470215
+        "heat_rate": 5.281249523162842
       }
     }
   },
