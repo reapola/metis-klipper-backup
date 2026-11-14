@@ -68,20 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 635,
-        "phases": {
-          "BED_MESH": 104,
-          "CLEANING": 3,
-          "HOMING": 21,
-          "PURGING": 1,
-          "QGL": 4
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794230129,
-        "total": 928,
-        "window": 1
-      },
-      {
         "heating": 576,
         "phases": {
           "BED_MESH": 110,
@@ -93,20 +79,6 @@
         "temp_bucket": 1,
         "timestamp": 1794236391,
         "total": 1019,
-        "window": 1
-      },
-      {
-        "heating": 394,
-        "phases": {
-          "BED_MESH": 118,
-          "CLEANING": 3,
-          "HOMING": 38,
-          "PURGING": 128,
-          "QGL": 19
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794239995,
-        "total": 811,
         "window": 1
       },
       {
@@ -281,6 +253,34 @@
         "timestamp": 1794474257,
         "total": 1184,
         "window": 1
+      },
+      {
+        "heating": 474,
+        "phases": {
+          "BED_MESH": 121,
+          "CLEANING": 2,
+          "HOMING": 35,
+          "PURGING": 1,
+          "QGL": 4
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794596081,
+        "total": 762,
+        "window": 1
+      },
+      {
+        "heating": 340,
+        "phases": {
+          "BED_MESH": 68,
+          "HOMING": 38,
+          "PURGING": 128,
+          "QGL": 83
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1794610021,
+        "total": 822,
+        "window": 1
       }
     ]
   },
@@ -290,8 +290,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _1h23m_95g.gcode\",\"job_id\":\"000414\",\"object_height\":18.0,\"start_time\":1794473073.5026236}",
-        "outlines": "{\"filename\":\"Voron_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _1h23m_95g.gcode\",\"objects\":[[[19.0,37.5],[274.0,37.5],[274.0,262.5],[19.0,262.5],[19.0,37.5]]]}"
+        "last_occupied": "{\"filename\":\"Voron_retract_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _3h22m_170g.gcode\",\"job_id\":\"000418\",\"object_height\":125.1,\"start_time\":1794624041.5775895}",
+        "outlines": "{\"filename\":\"Voron_retract_Easy+Rearrange+Shelves+for+Filament+Storage+Containers_0.3mm_PETG _3h22m_170g.gcode\",\"objects\":[[[18.2,43.1],[273.2,43.1],[273.2,268.1],[18.2,268.1],[18.2,43.1]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -472,7 +472,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-13T17:35:32Z"
+          "timestamp": "2026-11-14T02:43:33Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -542,20 +542,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 139.12250000037224
+            "used_h": 145.9097222223568
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 139.12250000037224
+            "used_h": 145.9097222223568
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 139.12250000037224
+            "used_h": 145.9097222223568
           }
         },
-        "total_h": 139.12250000037224
+        "total_h": 145.9097222223568
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -713,16 +713,16 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6159238219261169
+        "heat_rate": 0.6100389957427979
       },
       "heater_bed": {
-        "heat_rate": 8.627047538757324
+        "heat_rate": 6.9940667152404785
       }
     }
   },
   "tour": {
     "completed": true,
-    "last_seen_version": 1
+    "last_seen_version": 2
   },
   "ui": {},
   "update": {
