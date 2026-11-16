@@ -68,20 +68,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 718,
-        "phases": {
-          "BED_MESH": 131,
-          "CLEANING": 2,
-          "HOMING": 36,
-          "PURGING": 1,
-          "QGL": 13
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794336007,
-        "total": 1040,
-        "window": 1
-      },
-      {
         "heating": 540,
         "phases": {
           "BED_MESH": 123,
@@ -107,20 +93,6 @@
         "temp_bucket": 1,
         "timestamp": 1794385056,
         "total": 1143,
-        "window": 1
-      },
-      {
-        "heating": 398,
-        "phases": {
-          "BED_MESH": 157,
-          "CLEANING": 5,
-          "HOMING": 41,
-          "PURGING": 127,
-          "QGL": 18
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794399230,
-        "total": 867,
         "window": 1
       },
       {
@@ -279,6 +251,34 @@
         "timestamp": 1794700102,
         "total": 757,
         "window": 1
+      },
+      {
+        "heating": 332,
+        "phases": {
+          "BED_MESH": 111,
+          "CLEANING": 1,
+          "HOMING": 38,
+          "PURGING": 128,
+          "QGL": 12
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794714769,
+        "total": 778,
+        "window": 1
+      },
+      {
+        "heating": 603,
+        "phases": {
+          "BED_MESH": 126,
+          "CLEANING": 5,
+          "HOMING": 52,
+          "PURGING": 126,
+          "QGL": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794757873,
+        "total": 961,
+        "window": 1
       }
     ]
   },
@@ -288,8 +288,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_Fasterretract_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"job_id\":\"00041E\",\"object_height\":125.1,\"start_time\":1794699344.9297462}",
-        "outlines": "{\"filename\":\"Voron_Fasterretract_shelf_0.3mm_PETG _3h22m_170g.gcode\",\"objects\":[[[18.2,43.1],[273.2,43.1],[273.2,268.1],[18.2,268.1],[18.2,43.1]]]}"
+        "last_occupied": "{\"filename\":\"Voron_H3C Waste Chute_2_0.275mm_PETG _3h15m_181g.gcode\",\"job_id\":\"000420\",\"object_height\":166.1,\"start_time\":1794756911.8064377}",
+        "outlines": "{\"filename\":\"Voron_H3C Waste Chute_2_0.275mm_PETG _3h15m_181g.gcode\",\"objects\":[[[106.5,241.5],[106.5,80.0],[106.7,78.0],[107.6,75.4],[137.2,21.1],[138.2,20.3],[139.3,20.0],[154.1,20.1],[155.3,20.6],[156.1,21.6],[185.4,75.4],[186.0,77.0],[186.4,78.6],[186.5,270.0],[186.3,272.0],[185.8,273.7],[184.5,276.0],[183.6,277.1],[182.3,278.2],[179.8,279.4],[177.2,280.0],[110.5,280.0],[109.0,279.7],[108.1,279.2],[107.2,278.3],[106.7,277.3],[106.5,276.2],[106.5,241.5]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -470,7 +470,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-15T03:37:25Z"
+          "timestamp": "2026-11-16T11:49:43Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
@@ -540,20 +540,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 162.9161111106502
+            "used_h": 169.47888888819818
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 162.9161111106502
+            "used_h": 169.47888888819818
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 162.9161111106502
+            "used_h": 169.47888888819818
           }
         },
-        "total_h": 162.9161111106502
+        "total_h": 169.47888888819818
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -711,10 +711,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6283087730407715
+        "heat_rate": 0.6090136766433716
       },
       "heater_bed": {
-        "heat_rate": 5.642979621887207
+        "heat_rate": 6.890741348266602
       }
     }
   },
