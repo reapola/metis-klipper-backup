@@ -288,7 +288,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Voron_h3c print tool holder_0.25mm_ASA-GF _59m46s_42g.gcode\",\"job_id\":\"000421\",\"object_height\":46.75,\"start_time\":1794830356.425406}",
+        "last_occupied": "{\"filename\":\"Voron_h3c print tool holder_0.25mm_ASA-GF _59m46s_42g.gcode\",\"job_id\":\"000422\",\"object_height\":46.75,\"start_time\":1794830443.330803}",
         "outlines": "{\"filename\":\"Voron_h3c print tool holder_0.25mm_ASA-GF _59m46s_42g.gcode\",\"objects\":[[[91.3,132.0],[91.6,131.3],[92.3,131.0],[201.0,131.1],[201.5,131.4],[201.7,132.0],[201.7,168.3],[201.3,168.8],[200.7,169.0],[92.0,168.9],[91.5,168.6],[91.3,168.0],[91.3,132.0]]]}"
       },
       "default_macros": {
@@ -470,7 +470,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-16T11:49:43Z"
+          "timestamp": "2026-11-16T11:58:27Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
