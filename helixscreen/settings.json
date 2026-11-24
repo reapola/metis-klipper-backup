@@ -470,7 +470,7 @@
             "temperature_sensor Chamber_Top",
             "temperature_sensor Chamber_Temperature"
           ],
-          "timestamp": "2026-11-24T18:44:15Z"
+          "timestamp": "2026-11-24T18:51:43Z"
         },
         "optional": [
           "fan_generic _unit0_fan0",
